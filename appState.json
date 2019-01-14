@@ -1,0 +1,73 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c1d3bc49-fa1c-48a3-8467-e5b67f899545": {
+        "id": "c1d3bc49-fa1c-48a3-8467-e5b67f899545",
+        "parent": null,
+        "name": "Nww",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "ae99c4d7-a84e-4aef-a310-cce56a11c758"
+        ],
+        "isRemovable": false,
+        "filePath": "Nww"
+      },
+      "ae99c4d7-a84e-4aef-a310-cce56a11c758": {
+        "id": "ae99c4d7-a84e-4aef-a310-cce56a11c758",
+        "parent": "c1d3bc49-fa1c-48a3-8467-e5b67f899545",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Nww/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "c1d3bc49-fa1c-48a3-8467-e5b67f899545",
+    "openFiles": [
+      "ae99c4d7-a84e-4aef-a310-cce56a11c758"
+    ],
+    "currentFileId": "ae99c4d7-a84e-4aef-a310-cce56a11c758",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "ae99c4d7-a84e-4aef-a310-cce56a11c758"
+  },
+  "PROJECT_META": {
+    "projectName": "Nww",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1547448692055
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Nww",
+      "url": "https://github.com/sigmaidetest/Nww"
+    }
+  }
+}
